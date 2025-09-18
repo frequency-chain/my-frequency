@@ -50,6 +50,8 @@ export default function App() {
     <View style={styles.container}>
       <Text style={styles.title}>🚀 Hello World App vAAAHHHHHHH</Text>
       <Text style={styles.subtitle}>EAS Build + Update Pipeline Test</Text>
+      <Text style={styles.title}>🔴 BIG RED UPDATE TEST 🔴</Text>
+      <Text style={styles.subtitle}>THIS IS UPDATE VERSION 999</Text>
 
       <View style={styles.infoBox}>
         <Text style={styles.infoTitle}>Build Information:</Text>
@@ -65,7 +67,7 @@ export default function App() {
         <Text style={styles.buttonText}>Check for Updates</Text>
       </TouchableOpacity>
 
-      <Text style={styles.version}>Version: 1.0.0 - Build 1</Text>
+      <Text style={styles.version}>UPDATE TEST v999 - RED CIRCLES</Text>
     </View>
   );
 }
