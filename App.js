@@ -43,7 +43,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>🚀 Hello World App</Text>
+      <Text style={styles.title}>🚀 Hello World App vAAAHHHHHHH</Text>
       <Text style={styles.subtitle}>EAS Build + Update Pipeline Test</Text>
 
       <View style={styles.infoBox}>

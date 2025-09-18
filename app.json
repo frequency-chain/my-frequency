@@ -16,7 +16,10 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.plabs.myfrequency"
+      "bundleIdentifier": "com.plabs.myfrequency",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -29,7 +32,7 @@
       "favicon": "./assets/favicon.png"
     },
     "updates": {
-      "url": "https://u.expo.dev/de154394-1216-4936-a040-4b5e30dfea14"
+      "url": "https://u.expo.dev/cd382a7b-f16f-403c-8dbb-48c4443fe06d"
     },
     "runtimeVersion": {
       "policy": "sdkVersion"
