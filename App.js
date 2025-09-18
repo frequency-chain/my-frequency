@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>🚀 My Frequency App</Text>
+      <Text style={styles.title}>🚀 My Frequency App - This is Corbin's branch.</Text>
       <Text style={styles.subtitle}>Ready for feature development</Text>
 
       <View style={styles.infoBox}>
