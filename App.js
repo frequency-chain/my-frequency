@@ -20,7 +20,12 @@ export default function App() {
 
   const checkForUpdates = async () => {
     try {
+      setUpdateMessage("Checking for updates...");
+      console.log("Starting update check");
+
       const update = await Updates.checkForUpdateAsync();
+      console.log("Update check result:", update);
+
       if (update.isAvailable) {
         setUpdateMessage("Update available! Downloading...");
         await Updates.fetchUpdateAsync();
@@ -36,8 +41,8 @@ export default function App() {
         setUpdateMessage("App is up to date!");
       }
     } catch (error) {
-      setUpdateMessage("Error checking for updates");
-      console.log("Update check error:", error);
+      console.error("Update error details:", error);
+      setUpdateMessage(`Error: ${error.message || "Unknown error"}`);
     }
   };
 
